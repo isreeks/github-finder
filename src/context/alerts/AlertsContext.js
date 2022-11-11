@@ -18,7 +18,7 @@ export const AlertsProvider = ({ children }) => {
     }
 
     return <AlertsContext.Provider value={{
-        alert: state
+        alert: state, setAlert
     }}>
         {children}
     </AlertsContext.Provider>
